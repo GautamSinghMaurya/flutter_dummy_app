@@ -1,8 +1,10 @@
+import 'package:demo_flutter_app/constants/app_strings.dart';
 import 'package:demo_flutter_app/screen/login/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 
+import 'app_drawer/app_drawer.dart';
 import 'detail_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -15,6 +17,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Home"),
+      ),
+      drawer: AppDrawer(
+
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -43,7 +48,7 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: ElevatedButton(
-        child: const Text("Logout"),
+        child: const Text(AppStrings.logout),
         onPressed: () {
           Get.offAll(LoginScreen());
         },

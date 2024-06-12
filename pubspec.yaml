@@ -39,6 +39,7 @@ dependencies:
   htmltopdfwidgets: ^1.0.3
   email_validator: ^2.1.17
   flutter_bloc: ^8.1.6
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:

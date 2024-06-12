@@ -52,14 +52,32 @@ android {
     }
 
     // TODO : setting up release jks key code
+    signingConfigs {
+        release {
+            keyAlias 'demoflutterapp'
+            keyPassword '123456asdf'
+            storePassword '123456asdf'
+            //storeFile file('')
+        }
+        debug {
+
+        }
+    }
 
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
             // Signing with the debug keys for now, so `flutter run --release` works.
+            minifyEnabled true
+            signingConfig signingConfigs.release
+//             signingConfig signingConfigs.debug
+        }
+        debug {
             signingConfig signingConfigs.debug
         }
     }
+
+
 }
 
 flutter {
