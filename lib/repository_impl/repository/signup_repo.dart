@@ -1,0 +1,5 @@
+abstract class SignupRepository {
+
+  getSignup();
+
+}

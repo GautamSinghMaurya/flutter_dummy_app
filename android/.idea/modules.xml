@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/demo_flutter_app.android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335362782/dev.flutter.plugin.gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/-335362782/dev.flutter.plugin.gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335362782/dev.flutter.plugin.gradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-335362782/dev.flutter.plugin.gradle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335362782/dev.flutter.plugin.gradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-335362782/dev.flutter.plugin.gradle.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335362782/gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/-335362782/gradle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335362782/gradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/-335362782/gradle.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-335362782/gradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/-335362782/gradle.test.iml" />
+    </modules>
+  </component>
+</project>
