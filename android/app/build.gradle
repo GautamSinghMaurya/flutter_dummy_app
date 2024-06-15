@@ -57,7 +57,7 @@ android {
             keyAlias 'demoflutterapp'
             keyPassword '123456asdf'
             storePassword '123456asdf'
-            //storeFile file('')
+            storeFile file('../Untitled')
         }
         debug {
 
@@ -70,7 +70,6 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             minifyEnabled true
             signingConfig signingConfigs.release
-//             signingConfig signingConfigs.debug
         }
         debug {
             signingConfig signingConfigs.debug
