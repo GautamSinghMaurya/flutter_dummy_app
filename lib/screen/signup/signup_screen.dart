@@ -258,6 +258,7 @@ class SignupScreen extends StatelessWidget {
                         textInputAction: TextInputAction.next,
                         keyboardType: TextInputType.visiblePassword,
                         controller: passwordController,
+                        obscureText: true,
                         decoration: InputDecoration(
                           hintText: 'Password',
                           // errorText: validate ? errorText : null, focusedBorder: OutlineInputBorder( borderSide: BorderSide(color: Colors.redAccent), borderRadius: BorderRadius.circular(10)),

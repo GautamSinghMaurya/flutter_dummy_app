@@ -44,6 +44,7 @@ class HomeScreen extends StatelessWidget {
             showListTile(title: "What is Image?", description: "Flutter provides the Image widget to display different types of images. To work with images from a URL, use the Image.network() constructor. dart Image."),
             showListTile(title: "What is Wrap?", description: "A Wrap widget in Flutter is a fantastic solution to the overflow error. It automatically moves its children to the following line when there isn't enough space in the current one, a scenario often presented when dealing with multiple lines of text."),
             showListTile(title: "What is Checkbox?", description: "A Flutter checkbox is a type of input component that holds the boolean value. A GUI(Graphical User Interface) element allows users to choose multiple options from many selections. Here, users can reply only with a 'yes' or 'no' value."),
+            showListTile(title: "What is Draggable?", description: "Draggable widget can be used to allow users to interact with a widget by dragging it around the screen. To create a Draggable widget, you can use the Draggable class and pass it to a child widget to be rendered, along with a feedback widget that will be displayed while the user is dragging the widget. The Draggable class also accepts various properties such as child, feedback, data, childWhenDragging, feedbackOffset to customize the draggable widget."),
           ],
         ),
       ),
