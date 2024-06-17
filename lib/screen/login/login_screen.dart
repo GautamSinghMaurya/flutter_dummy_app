@@ -51,6 +51,7 @@ class LoginScreen extends StatelessWidget {
                 textInputAction: TextInputAction.next,
                 keyboardType: TextInputType.visiblePassword,
                 controller: passwordController,
+                obscureText: true,
                 decoration: InputDecoration(
                   hintText: 'Password',
                   // errorText: validate ? errorText : null, focusedBorder: OutlineInputBorder(

@@ -13,7 +13,7 @@ class SignupBloc extends Bloc<SignupEvent, SignupState> {
           emit(SignupValidation(value));
         } else {
           emit(SignupLoading());
-          await Future.delayed(Duration(seconds: 2), () {
+          await Future.delayed(const Duration(seconds: 2), () {
 
           });
           emit(SignupLoaded());

@@ -1,8 +1,8 @@
+import 'package:demo_flutter_app/network/global.dart';
+import 'package:demo_flutter_app/network/url.dart';
 import 'package:flutter/widgets.dart';
 
 import 'my_app.dart';
-import 'network/global.dart';
-import 'network/url.dart';
 
 void main() {
   Global.baseURL = Url.devURL;
