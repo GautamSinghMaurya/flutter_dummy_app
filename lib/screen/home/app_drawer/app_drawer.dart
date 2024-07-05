@@ -1,4 +1,5 @@
 import 'package:demo_flutter_app/constants/app_strings.dart';
+import 'package:demo_flutter_app/screen/reset_password/reset_password_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -20,6 +21,13 @@ class AppDrawer extends Drawer {
             children: [
               const SizedBox(
                 height: 100,
+              ),
+              ListTile(
+                tileColor: Colors.grey,
+                title: const Text(AppStrings.resetPassword),
+                onTap: (){
+                  Get.to(ResetPasswordScreen());
+                },
               ),
               ListTile(
                 tileColor: Colors.grey,
@@ -47,4 +55,5 @@ class AppDrawer extends Drawer {
       throw Exception('Could not launch $url');
     }
   }
+
 }

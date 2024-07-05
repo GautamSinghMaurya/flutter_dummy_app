@@ -1,3 +1,4 @@
+import 'package:demo_flutter_app/constants/app_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo App',
+      title: AppStrings.appName,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
