@@ -4,7 +4,8 @@ class DetailScreen extends StatelessWidget {
   final String title;
   final String description;
 
-  const DetailScreen({super.key, required this.title, required this.description});
+  const DetailScreen(
+      {super.key, required this.title, required this.description});
 
   @override
   Widget build(BuildContext context) {
@@ -19,16 +20,19 @@ class DetailScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-        
-              Text(title, style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
-              const SizedBox(height: 16,),
+              Text(
+                title,
+                style:
+                    const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              ),
+              const SizedBox(
+                height: 16,
+              ),
               Text(description)
-        
             ],
           ),
         ),
       ),
     );
   }
-
 }

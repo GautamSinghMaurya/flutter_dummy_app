@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginSubmit extends StatelessWidget {
@@ -17,7 +16,9 @@ class LoginSubmit extends StatelessWidget {
         onPressed: onPressed,
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-          child: const Text('Login',),
+          child: const Text(
+            'Login',
+          ),
         ));
   }
 }

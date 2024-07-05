@@ -18,17 +18,14 @@ class AppDrawer extends Drawer {
         child: SingleChildScrollView(
           child: Column(
             children: [
-
               const SizedBox(
                 height: 100,
               ),
-
               ListTile(
                 tileColor: Colors.grey,
                 title: const Text(AppStrings.privacyPolicy),
                 onTap: _launchURL,
               ),
-
               ListTile(
                 tileColor: Colors.grey,
                 title: const Text(AppStrings.logout),
@@ -36,8 +33,6 @@ class AppDrawer extends Drawer {
                   Get.offAll(LoginScreen());
                 },
               ),
-
-      
             ],
           ),
         ),
@@ -46,10 +41,10 @@ class AppDrawer extends Drawer {
   }
 
   _launchURL() async {
-    final Uri url = Uri.parse('https://www.freeprivacypolicy.com/live/318123d4-67f6-4f00-ab35-382c01439ea9');
+    final Uri url = Uri.parse(
+        'https://www.freeprivacypolicy.com/live/318123d4-67f6-4f00-ab35-382c01439ea9');
     if (!await launchUrl(url)) {
       throw Exception('Could not launch $url');
     }
   }
-
 }

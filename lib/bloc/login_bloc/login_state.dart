@@ -9,11 +9,11 @@ class LoginInitial extends LoginState {}
 
 class LoginValidation extends LoginState {
   String? value;
+
   LoginValidation(this.value);
 
   @override
   List<Object> get props => [value!];
-
 }
 
 class LoginLoading extends LoginState {}

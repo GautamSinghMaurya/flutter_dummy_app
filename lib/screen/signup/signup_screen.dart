@@ -1,14 +1,9 @@
 import 'package:demo_flutter_app/bloc/signup_bloc/signup_bloc.dart';
 import 'package:demo_flutter_app/bloc/signup_bloc/signup_event.dart';
-import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:get/get.dart';
 
 import '../../bloc/signup_bloc/signup_state.dart';
-import '../../constants/app_strings.dart';
-import '../../utils/show_message.dart';
-import '../home/home_screen.dart';
 import '../login/login_screen.dart';
 
 class SignupScreen extends StatefulWidget {
@@ -147,15 +142,14 @@ class _SignupScreenState extends State<SignupScreen> {
   _signupButton() {
     return BlocBuilder<SignupBloc, SignupState>(
         bloc: _signupBloc,
-
         buildWhen: (mContext, state) {
           if (state is SignupValidation) {
             ScaffoldMessenger.of(context)
                 .showSnackBar(SnackBar(content: Text(state.value!)));
           }
-          return state is SignupLoading || state is SignupValidation
-              || state is SignupLoaded;
-
+          return state is SignupLoading ||
+              state is SignupValidation ||
+              state is SignupLoaded;
         },
         builder: (context, state) {
           if (state is SignupLoading) {

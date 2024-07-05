@@ -1,18 +1,14 @@
 import 'package:demo_flutter_app/bloc/login_bloc/login_bloc.dart';
 import 'package:demo_flutter_app/bloc/login_bloc/login_event.dart';
 import 'package:demo_flutter_app/bloc/login_bloc/login_state.dart';
-import 'package:demo_flutter_app/constants/app_strings.dart';
 import 'package:demo_flutter_app/screen/f_password/fpassword_screen.dart';
 import 'package:demo_flutter_app/screen/home/home_screen.dart';
 import 'package:demo_flutter_app/screen/login/widget/login_submit.dart';
 import 'package:demo_flutter_app/screen/signup/signup_screen.dart';
-import 'package:demo_flutter_app/utils/show_message.dart';
-import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
-
 
 class LoginScreen extends StatelessWidget {
   TextEditingController emailController = TextEditingController();
@@ -124,13 +120,18 @@ class LoginScreen extends StatelessWidget {
           print(state);
           if (state is LoginValidation) {
             Fluttertoast.showToast(msg: state.value!);
-          }if (state is LoginError) {
-            Fluttertoast.showToast(msg: "error : "+state.error!);
           }
-          if(state is LoginLoaded) {
-            Get.offAll(const HomeScreen(txt: 'Login successfully',));
+          if (state is LoginError) {
+            Fluttertoast.showToast(msg: "error : " + state.error!);
           }
-          return state is LoginLoading || state is LoginValidation || state is LoginError;
+          if (state is LoginLoaded) {
+            Get.offAll(const HomeScreen(
+              txt: 'Login successfully',
+            ));
+          }
+          return state is LoginLoading ||
+              state is LoginValidation ||
+              state is LoginError;
         },
         builder: (context, state) {
           if (state is LoginLoading) {

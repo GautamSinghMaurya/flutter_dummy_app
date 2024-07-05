@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'dummy/LoginScreen.dart';
-import 'learn/llogin_screen.dart';
 import 'screen/login/login_screen.dart';
 
 class MyApp extends StatelessWidget {

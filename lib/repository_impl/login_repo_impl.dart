@@ -1,6 +1,4 @@
 import 'package:demo_flutter_app/network/app_services.dart';
-import 'package:demo_flutter_app/network/dio_client.dart';
-import 'package:demo_flutter_app/network/url.dart';
 import 'package:demo_flutter_app/repository_impl/repository/login_repo.dart';
 
 class LoginRepositoryImpl extends LoginRepository {
@@ -10,9 +8,7 @@ class LoginRepositoryImpl extends LoginRepository {
 
   @override
   login(String email, String password) {
-   var requestBody = {"email":email, "password":password};
-   appServices.login(requestBody);
+    var requestBody = {"email": email, "password": password};
+    appServices.login(requestBody);
   }
-
-
 }
