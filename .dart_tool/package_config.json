@@ -50,6 +50,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "bloc_test",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/bloc_test-9.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
       "packageUri": "lib/",
@@ -114,6 +120,12 @@
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.1"
+    },
+    {
+      "name": "diff_match_patch",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "dio",
@@ -294,6 +306,12 @@
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/mime-1.0.5",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "mocktail",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/mocktail-1.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "nested",
@@ -566,7 +584,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-07-02T20:09:05.910006Z",
+  "generated": "2024-07-25T18:46:05.708124Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }

@@ -2,6 +2,7 @@ import 'package:demo_flutter_app/network/dio_client.dart';
 import 'package:demo_flutter_app/network/url.dart';
 
 class AppServices {
+
   Future<Map?> login(Map<String, dynamic> requestBody) async {
     try {
       final loginResponse = await DioClient().fetch(
@@ -11,4 +12,5 @@ class AppServices {
       return null;
     }
   }
+
 }

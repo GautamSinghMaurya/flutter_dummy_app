@@ -11,4 +11,9 @@ class LoginRepositoryImpl extends LoginRepository {
     var requestBody = {"email": email, "password": password};
     appServices.login(requestBody);
   }
+
+  @override
+  forgotPassword(String email) {
+
+  }
 }
