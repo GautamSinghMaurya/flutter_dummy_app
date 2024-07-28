@@ -62,6 +62,54 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "build",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/build-2.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "build_config",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/build_config-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "build_daemon",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/build_daemon-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "build_resolvers",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/build_resolvers-2.4.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "build_runner",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/build_runner-2.4.11",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "build_runner_core",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/build_runner_core-7.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
+      "name": "built_collection",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/built_collection-5.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "built_value",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/built_value-8.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/characters-1.3.0",
       "packageUri": "lib/",
@@ -84,6 +132,12 @@
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "code_builder",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/code_builder-4.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "collection",
@@ -122,6 +176,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "dart_style",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/dart_style-2.3.6",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "diff_match_patch",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/diff_match_patch-0.4.1",
       "packageUri": "lib/",
@@ -158,14 +218,26 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "flutter",
-      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.16.5/packages/flutter",
+      "name": "fixnum",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/fixnum-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.22.0/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_bloc",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/flutter_bloc-8.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_dotenv",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/flutter_dotenv-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -183,13 +255,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.16.5/packages/flutter_test",
+      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.22.0/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.16.5/packages/flutter_web_plugins",
+      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.22.0/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -198,6 +270,12 @@
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/fluttertoast-8.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "fpdart",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/fpdart-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "frontend_server_client",
@@ -212,10 +290,22 @@
       "languageVersion": "2.15"
     },
     {
+      "name": "get_it",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/get_it-7.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "glob",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/glob-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "graphs",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/graphs-2.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "html",
@@ -272,6 +362,30 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "json_serializable",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/json_serializable-6.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/leak_tracker-10.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
@@ -285,19 +399,19 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/material_color_utilities-0.8.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/meta-1.10.0",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/meta-1.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -333,9 +447,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "path_parsing",
@@ -380,6 +494,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "pubspec_parse",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/pubspec_parse-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "qr",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/qr-3.0.1",
       "packageUri": "lib/",
@@ -411,9 +531,21 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.16.5/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/gautamsinghmaurya/fvm/versions/3.22.0/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
+    },
+    {
+      "name": "source_gen",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/source_gen-1.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "source_helper",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/source_helper-1.3.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "source_map_stack_trace",
@@ -446,6 +578,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "stream_transform",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/stream_transform-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "string_scanner",
       "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
@@ -459,21 +597,27 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/test-1.24.9",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/test-1.25.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/test_api-0.7.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/test_core-0.5.9",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/test_core-0.6.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "timing",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/timing-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "typed_data",
@@ -537,9 +681,9 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
+      "rootUri": "file:///Users/gautamsinghmaurya/.pub-cache/hosted/pub.dev/vm_service-14.2.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "watcher",
@@ -584,7 +728,10 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-07-25T18:46:05.708124Z",
+  "generated": "2024-07-27T22:59:27.382563Z",
   "generator": "pub",
-  "generatorVersion": "3.2.3"
+  "generatorVersion": "3.4.0",
+  "flutterRoot": "file:///Users/gautamsinghmaurya/fvm/versions/3.22.0",
+  "flutterVersion": "3.22.0",
+  "pubCache": "file:///Users/gautamsinghmaurya/.pub-cache"
 }
