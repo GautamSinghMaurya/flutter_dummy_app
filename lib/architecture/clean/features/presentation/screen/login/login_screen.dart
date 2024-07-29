@@ -29,8 +29,6 @@ class LoginScreen extends StatelessWidget {
           body: Container(
             padding: const EdgeInsets.all(24),
             child: ListView(
-              // mainAxisSize: MainAxisSize.min,
-              // mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Text(
                   'Welcome Back',
@@ -112,6 +110,7 @@ class LoginScreen extends StatelessWidget {
 
           if (state is LoginSuccess) {
             Fluttertoast.showToast(msg: "Login Successfully");
+            Get.to(HomeScreen());
           }
           return state is LoginLoading ||
               state is LoginLoaded ||

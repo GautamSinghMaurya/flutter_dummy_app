@@ -1,3 +1,4 @@
+import 'package:demo_flutter_app/architecture/clean/features/presentation/screen/chapter/chapter_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -21,6 +22,14 @@ class AppDrawer extends Drawer {
             children: [
               const SizedBox(
                 height: 100,
+              ),
+              ListTile(
+                tileColor: Colors.grey,
+                title: const Text(AppStrings.selectChapter),
+                onTap: (){
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ChapterScreen()));
+                  // Get.to(const ChapterScreen());
+                },
               ),
               ListTile(
                 tileColor: Colors.grey,

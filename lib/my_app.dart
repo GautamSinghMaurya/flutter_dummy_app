@@ -1,4 +1,5 @@
 import 'package:demo_flutter_app/architecture/clean/features/injector.dart';
+import 'package:demo_flutter_app/architecture/clean/features/presentation/bloc/chapter/chapter_bloc.dart';
 import 'package:demo_flutter_app/architecture/clean/features/presentation/bloc/login_bloc/login_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
         providers: [
           BlocProvider<LoginBloc>(create: (context) => injector<LoginBloc>()),
+          BlocProvider<ChapterBloc>(
+              create: (context) => injector<ChapterBloc>())
         ],
         child:
 

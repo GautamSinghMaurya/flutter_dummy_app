@@ -10,9 +10,8 @@ import 'app_drawer/app_drawer.dart';
 import 'detail_screen.dart';
 
 class HomeScreen extends StatelessWidget {
-  final String txt;
 
-  HomeScreen({super.key, required this.txt});
+  HomeScreen({super.key});
 
   var data = [
     WidgetData(
@@ -79,7 +78,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Home"),
       ),
-      drawer: AppDrawer(),
+      drawer: const AppDrawer(),
       body: Column(
           children: [
             const Text(
@@ -96,9 +95,9 @@ class HomeScreen extends StatelessWidget {
                     ? const BouncingScrollPhysics()
                     : const ClampingScrollPhysics(),
                 itemBuilder: (context, index) {
-                  var _data = data[index];
+                  var mData = data[index];
                   return showListTile(
-                      title: _data.title, description: _data.description);
+                      title: mData.title, description: mData.description);
                 }))
           ],
         ),
