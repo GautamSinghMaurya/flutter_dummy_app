@@ -1,7 +1,7 @@
-import 'package:demo_flutter_app/architecture/clean/features/domain/entities/chapter/chapter_listings_entity.dart';
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
+import '../../../../domain/entities/chapter/fetch_chapter/chapter_listings_entity.dart';
 import 'chapter_model.dart';
 
 part 'chapter_response.g.dart';

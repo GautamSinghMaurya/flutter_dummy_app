@@ -13,15 +13,21 @@ class ChapterFetching extends ChapterEvent {
 }
 
 class ChapterSelecting extends ChapterEvent {
+  final int chapterId;
+
+  ChapterSelecting({required this.chapterId});
 
   @override
-  List<Object?> get props => [];
+  List<Object?> get props => [chapterId];
 
 }
 
 class ChapterDeSelecting extends ChapterEvent {
+  final int chapterId;
+
+  ChapterDeSelecting({required this.chapterId});
 
   @override
-  List<Object?> get props => [];
+  List<Object?> get props => [chapterId];
 
 }

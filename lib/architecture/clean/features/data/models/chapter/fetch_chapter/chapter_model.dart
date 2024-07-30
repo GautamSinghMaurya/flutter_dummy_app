@@ -1,4 +1,4 @@
-import 'package:demo_flutter_app/architecture/clean/features/domain/entities/chapter/chapter_details_entity.dart';
+import 'package:demo_flutter_app/architecture/clean/features/domain/entities/chapter/fetch_chapter/chapter_details_entity.dart';
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
@@ -21,8 +21,7 @@ class ChapterModel extends Equatable {
 
   ChapterDetailsEntity toEntity() => ChapterDetailsEntity(
       chapterId: chapterId,
-      chapterName: chapterName,
-      isSelected: false);
+      chapterName: chapterName,);
 
   @override
   List<Object?> get props => [chapterId, chapterName];

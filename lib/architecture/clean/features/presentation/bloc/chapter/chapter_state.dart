@@ -1,6 +1,5 @@
 import 'package:equatable/equatable.dart';
-
-import '../../../domain/entities/chapter/chapter_listings_entity.dart';
+import '../../../domain/entities/chapter/fetch_chapter/chapter_listings_entity.dart';
 
 abstract class ChapterState extends Equatable {
   @override
@@ -18,9 +17,20 @@ class ChapterLoading extends ChapterState{
 
 }
 
-class ChapterLoaded extends ChapterState{
+class ChapterCheckBoxLoading extends ChapterState{
   @override
   List<Object?> get props => [];
+}
+
+
+class ChapterCheckBoxLoaded extends ChapterState{
+  final String msg;
+  final ChapterListingsEntity? chapters;
+
+  ChapterCheckBoxLoaded({required this.msg, required this.chapters});
+
+  @override
+  List<Object?> get props => [msg];
 
 }
 

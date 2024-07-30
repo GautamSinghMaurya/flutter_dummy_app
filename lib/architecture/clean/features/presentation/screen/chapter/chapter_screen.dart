@@ -6,18 +6,19 @@ import 'package:demo_flutter_app/architecture/clean/features/presentation/screen
 import 'package:demo_flutter_app/architecture/clean/features/presentation/widget/common/app_loading.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get_it/get_it.dart';
 
-import '../../../domain/entities/chapter/chapter_listings_entity.dart';
+import '../../../domain/entities/chapter/fetch_chapter/chapter_listings_entity.dart';
 
 class ChapterScreen extends StatelessWidget {
-
   const ChapterScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context) => GetIt.I<ChapterBloc>()..add(ChapterFetching()),
+      create: (BuildContext context) =>
+          GetIt.I<ChapterBloc>()..add(ChapterFetching()),
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.grey[400],
@@ -29,13 +30,19 @@ class ChapterScreen extends StatelessWidget {
   }
 
   _body() {
-    return BlocBuilder<ChapterBloc, ChapterState>(builder: (context, state) {
+    return BlocBuilder<ChapterBloc, ChapterState>(buildWhen: (context, state) {
+      if(state is ChapterError) {
+        Fluttertoast.showToast(msg: state.error);
+      }
+
+      return state is ChapterLoading || state is ChapterSuccess;
+    }, builder: (context, state) {
       if (state is ChapterLoading) {
         return AppLoading();
-      } else if (state is ChapterSuccess) {
-        return _chapterList(state.chapters!);
+      } else if (state is ChapterInitial) {
+        return const SizedBox.shrink();
       } else {
-        return const Text('no data');
+        return _chapterList((state as ChapterSuccess).chapters!);
       }
     });
   }
@@ -48,9 +55,21 @@ class ChapterScreen extends StatelessWidget {
           var chapter = chapters.chapters![index];
 
           return CardChapter(
-              id: chapter.chapterId!,
-              name: chapter.chapterName!,
-              isSelected: chapter.isSelected!);
+            id: chapter.chapterId!,
+            name: chapter.chapterName!,
+            isSelected: chapter.isSelected,
+            markCheckBox: () {
+              if (chapter.isSelected) {
+                context
+                    .read<ChapterBloc>()
+                    .add(ChapterDeSelecting(chapterId: chapter.chapterId!));
+              } else {
+                context
+                    .read<ChapterBloc>()
+                    .add(ChapterSelecting(chapterId: chapter.chapterId!));
+              }
+            },
+          );
         });
   }
 }
